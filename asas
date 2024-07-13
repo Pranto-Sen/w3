@@ -1,0 +1,77 @@
+<header>
+      <!-- Navbar section -->
+      <nav id="navbar">
+          <ul class="side-navbar"></ul>
+          <ul id="navbar-list">
+              <li id="anywhere" style="font-weight: bold">Anywhere</li>
+              <li id="anyweek" style="font-weight: bold">Any week</li>
+              <li id="addguests">Any guests</li>
+              <li>
+                  <img src="./images/search.png" alt="search" width="30" height="30" />
+              </li>
+          </ul>
+          <ul class="side-navbar" id="navbar-list">
+              <li>
+                  <img class="side-navbar" src="./images/language.svg" alt="language" width="30" height="30" />
+              </li>
+              <li><img class="side-navbar" src="./images/menu.svg" alt="menu" width="30" height="30" /></li>
+              <li>
+                  <img class="side-navbar" src="./images/profile.png" alt="profile" width="30" height="30" />
+              </li>
+          </ul>
+      </nav>
+      <hr />
+  </header>
+     <!-- pppppppppp -->
+      <!-- Modal Containers -->
+      <div id="modal-anywhere" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('anywhere')">&times;</span>
+            <p>Search by region</p>
+            <!-- Add your content here -->
+        </div>
+    </div>
+  
+    <div id="modal-anyweek" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('anyweek')">&times;</span>
+            <p>Select a week</p>
+            <!-- Add your content here -->
+        </div>
+    </div>
+  
+    <div id="modal-addguests" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('addguests')">&times;</span>
+            <p>Add guests</p>
+            <!-- Add your content here -->
+        </div>
+    </div>
+
+
+     <!-- <div class="region-grid">
+              <div class="region-item">
+                  <img src="./images/small_map.jpg" alt="I'm flexible">
+                  <p>I'm flexible</p>
+              </div>
+              <div class="region-item">
+                  <img src="./images/small_map.jpg" alt="Southeast Asia">
+                  <p>Southeast Asia</p>
+              </div>
+              <div class="region-item">
+                  <img src="./images/small_map.jpg" alt="Canada">
+                  <p>Canada</p>
+              </div>
+              <div class="region-item">
+                  <img src="./images/small_map.jpg" alt="Europe">
+                  <p>Europe</p>
+              </div>
+              <div class="region-item">
+                  <img src="./images/small_map.jpg" alt="Thailand">
+                  <p>Thailand</p>
+              </div>
+              <div class="region-item">
+                  <img src="./images/small_map.jpg" alt="Middle East">
+                  <p>Middle East</p>
+              </div>
+          </div> -->
